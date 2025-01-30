@@ -1,0 +1,373 @@
+#pricing {
+    width: 100%;
+	padding-right: 0px;
+    font-family: 'Open Sans', Helvetica;
+    padding-bottom: 10px;	
+}
+@font-face {
+    font-family: 'selow'; 
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts/selow.woff2) format("woff2"), 
+        url(fonts/selow.woff) format("woff"),
+        url(fonts/selow.ttf) format("truetype");
+}
+.price_card {
+    width: 190px;
+    background: #F5DEBB3;
+    display: inline-table;
+    top: 0;
+    padding-left: 0px;
+    padding-bottom: 4px;
+    padding-right: 0px;
+	
+}
+
+
+.price_card:not(:last-child) {
+}
+.price_car {
+    width: 170px;
+    background: #F5DEBB3;
+    display: inline-table;
+    top: 0;
+    padding-left: 0px;
+    padding-bottom: 5px;
+	
+}
+.price_cardnis:not(:last-child) {
+}
+.price_cardnis {
+    width: 100px;
+    background: #F5DEBB3;
+    display: inline-table;
+    top: 0;
+    padding-left: 0px;
+    padding-bottom: 4px;
+    padding-right: 0px;
+}
+.my-nav{
+     background: url(http://4.bp.blogspot.com/-vTJZ9WgmWiw/U4hdRXtkVpI/AAAAAAAAKoI/KAyGESgR0Mc/s1600/Gambar+Animasi+Petir+Bergerak+Wallpaper+Kilat+Spektakuler.gif);
+     border: 1px solid #16a085; 
+    border-radius: 0px 0px 10px 10px;  
+	font-weight:700;
+	font-size:16px!important;
+	text-align:center}
+.my-nav span{
+    background:blue;
+	display:inline-block;
+	padding:15px 21px;
+	border-bottom:2px solid #16a085}
+.my-nav span.active{
+	background:red;
+	border-bottom:2px solid #16a085}
+	
+.price_car:not(:last-child) {
+    margin-right: 0px;
+	
+}
+.header {
+    background: url(http://4.bp.blogspot.com/-_TTfkRAYu7Y/UM8uWDI53XI/AAAAAAAACv4/KdgIVePWFLg/s320/kembang+api.gif);
+    color: rgb(255, 255, 255);
+}
+.alpha .header {
+
+	border-right: 2px solid white;
+	border-left: 2px solid white;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+.bravo .header {
+    background: rgb(246, 77, 77);
+}
+.charlie .header {
+    background: rgb(48, 219, 181);
+}
+.price {
+    width: 150px;
+    display: block;
+    text-align: center;
+    padding: 30px 0 10px;
+}
+
+.img1 {
+    height: 150px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px 0 10px;
+}
+.img2 {
+    height: 250px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0px 0 10px;
+    border-radius: 7px 7px 0px;
+}
+
+.img3 {
+    background-color:black;
+    height: 100px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px 0 10px;
+    border-radius: 10px;
+}
+.name {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    padding: 0 0 0px;
+}
+.nameis {
+    width: 100%;
+    color:black;
+    font-size: 15px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    padding: 0 0 0px;
+}
+.nama {
+    width: 100%;
+    font-size: 17px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    padding: 0 0 10px;
+}
+.nama-angelhost {
+    color:white;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    padding: 0 0 10px;
+}
+.nehi {
+    background-color:black;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px 0 10px;
+    border-radius: 10px;
+}
+
+.features {
+    list-style: none;
+    text-align: center;
+    color: rgb(138, 138, 138);
+    margin: 0;
+    padding: 0;
+}
+.features li {
+    margin: 0 35px;
+    padding: 20px 15px;
+    width: 200px;
+}
+.features li:not(:last-child) {
+    border: 1px solid rgb(242, 242, 242);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+button {
+font: inherit;
+color: white;
+background: white;
+    height: 40px;
+    width: 200px;
+    display: block;
+    font-weight: 510;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 5px auto 8px;
+}
+.tombol {
+font: inherit;
+color: white;
+background: green;
+    height: 40px;
+    width: 200px;
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 20px auto 0px;
+    margin-bottom:0px;
+}
+.tombole {
+font: arial;
+color: white;
+background: green;
+    height: 30px;
+    width: 200px;
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform:none;
+    margin: 0px auto 0px;
+    margin-bottom:0px;
+    padding-top:10px;
+    padding-right:40px;
+}
+
+.alpha button {
+    background: white;
+}
+.bravo button {
+    background: rgb(246, 77, 77);
+}
+.charlie button {
+    background: rgb(48, 219, 181);
+}
+
+.tip {
+    font-family: 'Indie Flower';
+    position: absolute;
+    color: rgb(117, 117, 117);
+    margin: 10px 5px;
+}
+input {
+    border: 2px solid;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background: rgb(39, 39, 39) color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0px auto 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+.angelhost {
+     width:100%;
+     border: 4px solid red;
+     border-radius:0px;
+     padding-top:0px; 
+     padding-bottom:0px;     
+   }
+.angelhost-battle {
+     width:100%;
+     background: url(http://4.bp.blogspot.com/-vTJZ9WgmWiw/U4hdRXtkVpI/AAAAAAAAKoI/KAyGESgR0Mc/s1600/Gambar+Animasi+Petir+Bergerak+Wallpaper+Kilat+Spektakuler.gif);
+     padding-top:0px;
+     padding-bottom:0px; 
+   }   
+.angelhost-skin {
+     width:100%;
+     background: black;
+     padding-top:0px;
+     padding-bottom:0px; 
+   }  
+.lang{
+    margin-top:10px;
+    margin-bottom:10px;
+    overflow:hidden;
+}
+.lang select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 4px 4px 2px 30px;
+    border: none;
+    background: green url("../images/arraw-angelhost.png") no-repeat ;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    border-radius: 2px;
+    font-weight: bold;
+    border: 1px solid red; 
+    border-radius: 10px;   
+}
+.price_card {
+    border-radius: 2px;
+    font-weight: bold;
+    border-radius: 10px;   
+}
+.price_cardnis {
+    border-radius: 2px;
+    font-weight: bold;
+    border-radius: 10px;   
+}
+.header:hover{
+border-radius:10px;
+color:#2ECC0D;
+background-color:#CF3C0D;
+transition:2s;
+duration:2s;
+border:dotted 4px red;
+}
+
+
+.header {
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+}
+
+.header:hover {background:blue;
+-webkit-transform: scale(1.2) rotate(1080deg);
+-moz-transform: scale(1.2) rotate(1080deg);
+-o-transform: scale(1.2) rotate(1080deg);
+-ms-transform: scale(1.2) rotate(1080deg);
+transform: scale(1.9) rotate(1080deg);
+}
+
+.tombol:hover{
+border-radius:10px;
+color:#2ECC0D;
+background-color:#CF3C0D;
+transition:2s;
+duration:2s;
+border:dotted 5px red;
+}
+
+
+.tombol {
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+}
+
+.tombole:hover{
+border-radius:10px;
+color:#2ECC0D;
+background-color:#CF3C0D;
+transition:2s;
+duration:2s;
+border:dotted 5px red;
+    padding-top:10px;
+    padding-right:40px;
+}
+.tombole {
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+}
+
