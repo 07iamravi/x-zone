@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# https://github.com/rabikishanr/x-zone
+# https://github.com/07iamravi/x-zone
 
 if [[ $(uname -o) == *'Android'* ]];then
 	X-ZONE_ROOT="/data/data/com.termux/files/usr/opt/x-zone"

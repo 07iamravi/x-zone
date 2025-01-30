@@ -255,7 +255,7 @@ about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
 		${GREEN} Author   ${RED}:  ${PINK}Rabikishan Rauniyar ${RED}[ ${PINK}X-ZONE ${RED}]
-		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/Rabikishanr
+		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/07iamravi
 		${GREEN} Version  ${RED}:  ${PINK}${__version__}
 
 		${WHITE} ${REDBG}Warning:${RESETBG}

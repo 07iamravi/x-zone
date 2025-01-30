@@ -30,9 +30,9 @@ cat <<- CONTROL_EOF > ./build_env/DEBIAN/control
 Package: ${_PACKAGE}
 Version: ${_VERSION}
 Architecture: ${_ARCH}
-Maintainer: @rabikishanr
+Maintainer: @07iamravi
 Depends: ${_depend}
-Homepage: https://github.com/rabikishanr/x-zone
+Homepage: https://github.com/07iamravi/x-zone
 Description: An automated phishing tool OF PUBG,BGMI AND FF EVENT. This Tool is made for educational purpose only !
 CONTROL_EOF
 

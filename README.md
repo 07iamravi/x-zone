@@ -29,7 +29,7 @@ It only demonstrates "how certain technologies work". <b>You shall not misuse th
 
 - Just, Clone this repository -
   ```
-  git clone --depth=1 https://github.com/rabikishanr/x-zone.git
+  git clone --depth=1 https://github.com/07iamravi/x-zone.git
   ```
 
 - Now go to cloned directory and run `x-zone.sh` -
@@ -46,7 +46,7 @@ It only demonstrates "how certain technologies work". <b>You shall not misuse th
 You can easily install x-zone in Termux 
 ```
 $ pkg install git
-$ git clone https://github.com/rabikishanr/x-zone.git
+$ git clone https://github.com/07iamravi/x-zone.git
 $ cd x-zone
 $ bash x-zone.sh
 ```
@@ -56,14 +56,14 @@ $ bash x-zone.sh
 ##
 
 <p align="left">
-  <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/rabikishanr/x-zone.git&tutorial=README.md" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
+  <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/07iamravi/x-zone.git&tutorial=README.md" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
 </p>
 
 ##
 
 ### Installation via ".deb" file
 
-- Download `.deb` files from the [**Latest Release**](https://github.com/rabikishanr/x-zone/releases/latest)
+- Download `.deb` files from the [**Latest Release**](https://github.com/07iamravi/x-zone/releases/latest)
 - If you are using ***termux*** then download the `*_termux.deb`
 
 - Install the `.deb` file by executing
@@ -83,23 +83,23 @@ $ bash x-zone.sh
 - Docker Image Mirror:
   - **DockerHub** : 
     ```
-    docker pull rabikishanr/x-zone
+    docker pull 07iamravi/x-zone
     ```
   - **GHCR** : 
     ```
-    docker pull ghcr.io/rabikishanr/x-zone:latest
+    docker pull ghcr.io/07iamravi/x-zone:latest
     ```
 
-- By using the wrapper script [**run-docker.sh**](https://raw.githubusercontent.com/rabikishanr/x-zone/master/run-docker.sh)
+- By using the wrapper script [**run-docker.sh**](https://raw.githubusercontent.com/07iamravi/x-zone/master/run-docker.sh)
 
   ```
-  $ curl -LO https://raw.githubusercontent.com/rabikishanr/x-zone/master/run-docker.sh
+  $ curl -LO https://raw.githubusercontent.com/07iamravi/x-zone/master/run-docker.sh
   $ bash run-docker.sh
   ```
 - Temporary Container
 
   ```
-  docker run --rm -ti rabikishanr/x-zone
+  docker run --rm -ti 07iamravi/x-zone
   ```
   - Remember to mount the `auth` directory.
 

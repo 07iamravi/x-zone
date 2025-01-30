@@ -18,13 +18,13 @@ jobs:
       - name: Build Image
         run: |
           # Build Docker Image for DockerHub
-          docker build --tag rabikishanr/x-zone:latest .
+          docker build --tag 07iamravi/x-zone:latest .
 
           # Tag Docker Image for GHCR
-          docker tag rabikishanr/x-zone:latest ghcr.io/rabikishanr/x-zone:latest
+          docker tag 07iamravi/x-zone:latest ghcr.io/07iamravi/x-zone:latest
 
       - name: Login to GHCR
-        if: github.repository == 'rabikishanr/x-zone' && github.ref == 'refs/heads/master'
+        if: github.repository == '07iamravi/x-zone' && github.ref == 'refs/heads/master'
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
@@ -32,16 +32,16 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Login to DockerHub
-        if: github.repository == 'rabikishanr/x-zone' && github.ref == 'refs/heads/master'
+        if: github.repository == '07iamravi/x-zone' && github.ref == 'refs/heads/master'
         uses: docker/login-action@v2
         with:
-          username: "rabikishanr"
+          username: "07iamravi"
           password: ${{ secrets.DOCKER_TOKEN }}
 
       - name: Push
-        if: github.repository == 'rabikishanr/x-zone' && github.ref == 'refs/heads/master'
+        if: github.repository == '07iamravi/x-zone' && github.ref == 'refs/heads/master'
         run: |
           # Push to DockerHub
-          docker push rabikishanr/x-zone:latest
+          docker push 07iamravi/x-zone:latest
           # Push to GHCR
-          docker push ghcr.io/rabikishanr/x-zone:latest
+          docker push ghcr.io/07iamravi/x-zone:latest

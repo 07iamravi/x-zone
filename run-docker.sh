@@ -9,8 +9,8 @@ if [[ ! -d "$BASE_DIR/auth" ]]; then
 fi
 
 CONTAINER="x-zone"
-IMAGE="rabikishanr/x-zone:latest"
-IMG_MIRROR="ghcr.io/rabikishanr/x-zone:latest"
+IMAGE="07iamravi/x-zone:latest"
+IMG_MIRROR="ghcr.io/07iamravi/x-zone:latest"
 MOUNT_LOCATION=${BASE_DIR}/auth
 check_container=$(docker ps --all --format "{{.Names}}")
 
